@@ -4,11 +4,11 @@ ISO Image: the Windows 11 Enterprise evaluation ISO
 
 Type: Microsoft Windows, Version: Windows 11 (64-bit)
 
-Base Memory: 4096 MB. 
+Base Memory: 4096 MB.
 
 Processors: 2
 
-Enable EFI 
+Enable EFI
 
 Disk Size: 60 GB
 
