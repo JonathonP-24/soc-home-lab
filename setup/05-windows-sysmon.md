@@ -74,3 +74,11 @@
 
 &#x20; network-connect activity, similar to the UFW port-scan rule already built
 
+
+
+## Verification test (after snapshot restore + reinstall)
+- Created C:\Users\jonathon\Desktop\suspicious.exe (copy of notepad.exe) via PowerShell
+- Confirmed Wazuh alert: "Executable file created by powershell" (rule 92203)
+- Confirmed SwiftOnSecurity config does NOT log plain file creation (e.g. .txt) —
+  it's scoped to executables/scripts by design, not a detection gap
+
